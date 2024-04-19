@@ -1,0 +1,94 @@
+.sidebar-container{
+  min-height: 92vh;
+  background-color: rgb(176, 195, 202);
+  width:100%;
+  color:rgb(95, 94, 94);
+  font-size: 14px;
+  
+}
+.sidebar {
+  width: 95%;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-link{
+  width:100%;
+  padding: 10px;
+  margin:2%;
+  display: flex;
+}
+.active{
+  background-color: gainsboro;
+  border-radius:50px;
+  color: #66A3AE;
+  width:100%;
+  padding: 10px;
+  margin:2%;
+  display: flex;
+}
+
+.sidebar-link:hover{
+  /* border-right: 5px solid rgb(102, 98, 98); */
+  background-color: gainsboro;
+  border-radius:50px;
+  color: #66A3AE;
+}
+
+.content{
+  display: flex;
+}
+
+.main-component{
+  width:100%;
+}
+.sideContainer{
+  width:15%;
+}
+.mainContainer{
+  width:85%;
+}
+
+.iconClass{
+  margin-right: 5%;
+  color:rgb(95, 94, 94);
+  &:hover{
+    color : #66A3AE;
+  }
+}
+
+@media (max-width: 1310px) and (min-width:1023px) {
+  .sideContainer{
+    width:20%;
+  }
+  .mainContainer{
+    width:80%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .sideContainer{
+    width:22%;
+  }
+  .mainContainer{
+    width:78%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sideContainer{
+    width:10%;
+  }
+  .mainContainer{
+    width:90%;
+  }
+  .sidebar{
+    width: 60%;
+  }
+  .sidebar-link{
+    margin: 22%;
+  }
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+  font-size: 14px !important;
+}
