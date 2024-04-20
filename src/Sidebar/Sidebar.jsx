@@ -4,6 +4,7 @@ import AppRegistrationOutlinedIcon from "@mui/icons-material/AppRegistrationOutl
 import AutorenewOutlinedIcon from "@mui/icons-material/AutorenewOutlined";
 import HistoryOutlinedIcon from "@mui/icons-material/HistoryOutlined";
 import ThumbUpAltOutlinedIcon from "@mui/icons-material/ThumbUpAltOutlined";
+import PersonIcon from '@mui/icons-material/Person';
 
 export default function Sidebar({ onMenuClick }) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -37,6 +38,11 @@ export default function Sidebar({ onMenuClick }) {
       name: "Feedback",
       icon: <ThumbUpAltOutlinedIcon className="iconClass" />,
       id: "feedback",
+    },
+    {
+      name: "User Details",
+      icon: <PersonIcon className="iconClass" />,
+      id: "profile",
     },
     // Add more menu items as needed
   ];

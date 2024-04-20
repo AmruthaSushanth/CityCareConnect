@@ -42,12 +42,14 @@
 
 .main-component{
   width:100%;
+  height:100%;
 }
 .sideContainer{
   width:15%;
 }
 .mainContainer{
   width:85%;
+  height:92vh;
 }
 
 .iconClass{

@@ -51,7 +51,7 @@ export default function Navbar({onMenuClick}) {
                 "aria-labelledby": "basic-button",
               }}
             >
-              <MenuItem onClick={() =>menuClick('profile')}>Profile</MenuItem>
+              {/* <MenuItem onClick={() =>menuClick('profile')}>Profile</MenuItem> */}
               <MenuItem onClick={handleClose}>Logout<LogoutOutlinedIcon style={{marginLeft:'5%',color:'grey'}}/></MenuItem>
             </Menu>
           </div>

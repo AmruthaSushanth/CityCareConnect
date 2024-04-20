@@ -1,0 +1,9 @@
+.dashboardMain{
+    padding: 2%;
+    background-color: rgb(213, 218, 218);
+    height:100%;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+}
